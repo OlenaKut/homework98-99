@@ -3,10 +3,8 @@ function Users(props) {
   return (
     <div>
       <h3>Hello </h3>
-      <h3>
-        {props.name}
-      </h3>
-      <img src={props.avatar} alt="User" />
+      <h1>{props.name}</h1>
+      <img src={props.avatar} alt="User" className="rounded-3 m-3" />
     </div>
   );
 }
