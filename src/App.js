@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import { SpinnerDiamond } from "spinners-react";
 import Users from "./Users";
+import { Ellipsis } from "react-css-spinners";
 import Timer from "react-timer";
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
   if (load) {
     return (
       <div className="App">
-        <SpinnerDiamond size="200px" speed="50" color="#a12828" />
+        <Ellipsis color="#09532c" size={200} />
       </div>
     );
   } else if (data) {
