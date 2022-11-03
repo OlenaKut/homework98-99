@@ -29,7 +29,7 @@ function App() {
   if (load) {
     return (
       <div className="App">
-        <SpinnerDiamond size="200px" speed="50" сolor="#a12828" />
+        <SpinnerDiamond size="200px" speed="50" color="#a12828" />
       </div>
     );
   } else if (data) {
